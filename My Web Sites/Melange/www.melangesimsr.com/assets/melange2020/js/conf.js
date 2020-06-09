@@ -1,1 +1,0 @@
-var config={apiKey:"AIzaSyAxOXVfetY1ZG-YPzKpL9jQrUqYXmxFLY4",authDomain:"melange-5b115.firebaseapp.com",databaseURL:"https://melange-5b115.firebaseio.com",projectId:"melange-5b115",storageBucket:"melange-5b115.appspot.com",messagingSenderId:"740671338640"};
