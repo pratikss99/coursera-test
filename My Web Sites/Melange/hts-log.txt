@@ -1,0 +1,47 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 07 Jun 2020 10:18:10 at http://www.melangesimsr.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.melangesimsr.com/ -O1 "C:\My Web Sites\Melange" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:22:30	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/lib/font-awesome/css/font-awesome.min.css (from www.melangesimsr.com/)
+10:46:31	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=2 (from www.melangesimsr.com/)
+10:46:36	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=5 (from www.melangesimsr.com/)
+10:46:40	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=12 (from www.melangesimsr.com/)
+10:46:44	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=3 (from www.melangesimsr.com/)
+10:46:47	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=1 (from www.melangesimsr.com/)
+10:46:51	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=11 (from www.melangesimsr.com/)
+10:46:55	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=10 (from www.melangesimsr.com/)
+10:47:00	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=15 (from www.melangesimsr.com/)
+10:47:04	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/EventPosters/War_of_Bands.jpg (from www.melangesimsr.com/)
+10:47:13	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=6 (from www.melangesimsr.com/)
+10:47:14	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=14 (from www.melangesimsr.com/)
+10:47:18	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/cdn-cgi/l/email-protection (from www.melangesimsr.com/)
+10:47:19	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/speaker_details?spno=mel20-1 (from www.melangesimsr.com/)
+10:47:22	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/speaker_details?spno=mel20-2 (from www.melangesimsr.com/)
+10:47:26	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/speaker_details?spno=mel20-3 (from www.melangesimsr.com/)
+10:47:30	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/speakers/Speakers20/RanjitShetty.jpg (from www.melangesimsr.com/)
+10:47:37	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/Melange Pics/Gallery20/Star_Night11.JPG (from www.melangesimsr.com/)
+10:47:37	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/sponsors/Sponsors20/Bisleri.jpg (from www.melangesimsr.com/)
+10:48:09	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/sponsors/Sponsors20/MTV.jpg (from www.melangesimsr.com/)
+10:48:14	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/reachStudents2.jpg (from www.melangesimsr.com/)
+10:48:18	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/reachParticipating2.png (from www.melangesimsr.com/)
+10:48:18	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/privacy_policy_app (from www.melangesimsr.com/)
+10:48:20	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/js/countdown/jquery-3.1.1.min.js (from www.melangesimsr.com/)
+10:48:25	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/js/main.js (from www.melangesimsr.com/)
+10:48:26	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/preloader.html (from www.melangesimsr.com/assets/melange2020/css/style.css)
+10:49:12	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/lib/owlcarousel/assets/owl.video.play.png (from www.melangesimsr.com/assets/melange2020/lib/owlcarousel/assets/owl.carousel.min.css)
+10:49:15	Error: 	"Not Found" (404) at link www.melangesimsr.com/assets/melange2020/contactform/contactform.js (from www.melangesimsr.com/gallery)
+10:49:40	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/event_details_2020?evno=6 (from www.melangesimsr.com/)
+10:49:41	Warning: 	Link www.melangesimsr.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+10:49:41	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/Melange Pics/Gallery20/Star_Night11.JPG (from www.melangesimsr.com/)
+10:49:41	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/img/reachParticipating2.png (from www.melangesimsr.com/)
+10:49:41	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/js/main.js (from www.melangesimsr.com/)
+10:49:41	Error: 	"Not Found" (404) at link www.melangesimsr.com/assets/melange2020/img/preloader.html (from www.melangesimsr.com/assets/melange2020/css/style.css)
+10:49:41	Warning: 	File not parsed, looks like binary: www.melangesimsr.com/assets/melange2020/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+10:49:41	Warning: 	Retry after error -4 (No data (connection closed)) at link www.melangesimsr.com/assets/melange2020/lib/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0 (from www.melangesimsr.com/assets/melange2020/lib/font-awesome/css/font-awesome.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 31 minutes 42 seconds : 315 links scanned, 280 files written (49519848 bytes overall) [47748286 bytes received at 25104 bytes/sec], 4624513 bytes transferred using HTTP compression in 77 files, ratio 57%, 2.3 requests per connection
+(2 errors, 34 warnings, 0 messages)

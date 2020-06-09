@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Melange 2020</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="description" content="Melange is the annual festival of the management institute, K J SIMSR, Mumbai, organized in the month of February. This festival has a range of events and competitions like business quizes, case study competitions, Dance and Music competitions, etc." />
+<meta name="keywords" content="K J SIMSR annual festival, melange 2020, melange, management festivals, management events" />
+<meta name="google-site-verification" content="ZsNiRaZPrhVjs6CDiK_hS56hJ45Lzjqm-KVUFny5Zww" />
+
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+
+<link href="assets/melange2020/img/favicon.ico" rel="icon">
+<link href="assets/melange2020/img/favicon.ico" rel="apple-touch-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+<link href="assets/melange2020/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="assets/melange2020/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/melange2020/lib/animate/animate.min.css" rel="stylesheet">
+<link href="assets/melange2020/lib/venobox/venobox.css" rel="stylesheet">
+<link href="assets/melange2020/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+<link href="assets/melange2020/css/style.css" rel="stylesheet">
+<script src="assets/melange2020/js/conf.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<style>
+
+			body{
+                background: #95CAFF;
+                color:#fff;
+                font-family: 'Raleway';
+				overflow: hidden;
+            }
+			#err_pg{
+				width:100%;
+				height:100vh;
+				overflow-x: hidden;
+			}
+            #err_pg .c{
+                text-align: center;
+                display: block;
+                position: relative;
+                width:80%;
+                margin:auto;
+            }
+            #err_pg ._404 p{
+                font-size: 9rem;
+				padding-bottom: 1.5em;
+                position: relative;
+                display: inline-block;
+                z-index: 2;
+                height: 180px;
+            }
+            #err_pg ._1 p{	
+                text-align:center;
+                display:block;
+				padding-top:1em;
+                position:relative;
+                font-size: 4rem;
+                line-height: 80%;
+            }
+            #err_pg ._2 p{
+                text-align:center;
+                display:block;
+                position: relative;
+                font-size: 3rem;
+				padding-bottom: 1.5em;
+            }
+            
+            
+            #err_pg hr{
+                padding: 0;
+                border: none;
+                border-top: 5px solid #fff;
+                color: #fff;
+                text-align: center;
+                margin: 0px auto;
+                width: 30%;
+                height:10px;
+                z-index: -10;
+            }
+            
+            #err_pg hr:after {
+                content: "\2042";
+                display: inline-block;
+                position: relative;
+                top: -1em;
+                font-size: 2.5em;
+                padding: 0 0.3em;
+                background: #95CAFF;
+				border-radius: 30px;
+            }
+            
+            #err_pg .cloud {
+                width: 350px; 
+				height: 120px;
+
+                background: #FFF;
+                background: linear-gradient(top, #FFF 100%);
+                background: -webkit-linear-gradient(top, #FFF 100%);
+                background: -moz-linear-gradient(top, #FFF 100%);
+                background: -ms-linear-gradient(top, #FFF 100%);
+                background: -o-linear-gradient(top, #FFF 100%);
+
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+
+                position: absolute;
+                margin: 120px auto 20px;
+                z-index:-1;
+                transition: ease 1s;
+            }
+
+            #err_pg .cloud:after, .cloud:before {
+                content: '';
+                position: absolute;
+                background: #FFF;
+                z-index: -1
+            }
+
+            #err_pg .cloud:after {
+                width: 100px; height: 100px;
+                top: -50px; left: 50px;
+
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+            }
+
+            #err_pg .cloud:before {
+                width: 180px; height: 180px;
+                top: -90px; right: 50px;
+
+                border-radius: 200px;
+                -webkit-border-radius: 200px;
+                -moz-border-radius: 200px;
+            }
+            
+            #err_pg .x1 {
+                top:-50px;
+                left:100px;
+                -webkit-transform: scale(0.3);
+                -moz-transform: scale(0.3);
+                transform: scale(0.3);
+                opacity: 0.9;
+                -webkit-animation: moveclouds 15s linear infinite;
+                -moz-animation: moveclouds 15s linear infinite;
+                -o-animation: moveclouds 15s linear infinite;
+            }
+            
+            #err_pg .x1_5{
+                top:-80px;
+                left:250px;
+                -webkit-transform: scale(0.3);
+                -moz-transform: scale(0.3);
+                transform: scale(0.3);
+                -webkit-animation: moveclouds 17s linear infinite;
+                -moz-animation: moveclouds 17s linear infinite;
+                -o-animation: moveclouds 17s linear infinite; 
+            }
+
+            #err_pg .x2 {
+                left: 250px;
+                top:30px;
+                -webkit-transform: scale(0.6);
+                -moz-transform: scale(0.6);
+                transform: scale(0.6);
+                opacity: 0.6; 
+                -webkit-animation: moveclouds 25s linear infinite;
+                -moz-animation: moveclouds 25s linear infinite;
+                -o-animation: moveclouds 25s linear infinite;
+            }
+
+            #err_pg .x3 {
+                left: 250px; bottom: -70px;
+
+                -webkit-transform: scale(0.6);
+                -moz-transform: scale(0.6);
+                transform: scale(0.6);
+                opacity: 0.8; 
+
+                -webkit-animation: moveclouds 25s linear infinite;
+                -moz-animation: moveclouds 25s linear infinite;
+                -o-animation: moveclouds 25s linear infinite;
+            }
+
+            #err_pg .x4 {
+                left: 470px; botttom: 20px;
+
+                -webkit-transform: scale(0.75);
+                -moz-transform: scale(0.75);
+                transform: scale(0.75);
+                opacity: 0.75;
+
+                -webkit-animation: moveclouds 18s linear infinite;
+                -moz-animation: moveclouds 18s linear infinite;
+                -o-animation: moveclouds 18s linear infinite;
+            }
+
+            #err_pg .x5 {
+                left: 200px; top: 300px;
+
+                -webkit-transform: scale(0.5);
+                -moz-transform: scale(0.5);
+                transform: scale(0.5);
+                opacity: 0.8; 
+
+                -webkit-animation: moveclouds 20s linear infinite;
+                -moz-animation: moveclouds 20s linear infinite;
+                -o-animation: moveclouds 20s linear infinite;
+            }
+
+            @-webkit-keyframes moveclouds {
+                0% {margin-left: 100px;}
+                100% {margin-left: -1000px;}
+            }
+            @-moz-keyframes moveclouds {
+                0% {margin-left: 100px;}
+                100% {margin-left: -1000px;}
+            }
+            @-o-keyframes moveclouds {
+                0% {margin-left: 100px;}
+                100% {margin-left: -1000px;}
+            }
+</style>
+</head>
+<body>
+
+<header id="header" class="header-fixed">
+<div class="container">
+<link href="assets/melange2020/css/preloader/preloader.css" rel="stylesheet">
+<div id="preloader">
+<div class="loader">
+<div class="loader-inner">
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+<div class="loader-line-wrap">
+<div class="loader-line"></div>
+</div>
+</div>
+</div>
+</div>
+<script type="82f899111032eefdeb7b8fc1-text/javascript">
+	 document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector("body").style.visibility = "hidden"; 
+                document.getElementById("preloader").style.visibility = "visible"; 
+            } else { 
+                document.getElementById("preloader").style.display = "none"; 
+                document.querySelector("body").style.visibility = "visible"; 
+            } 
+        }; 
+</script>
+<div id="logo" class="pull-left">
+
+<a href="/#intro" class="scrollto"><img src="assets/melange2020/img/logo.png" alt="" title=""></a>
+</div>
+<nav id="nav-menu-container">
+<ul class="nav-menu">
+<li><a href="/#intro">Home</a></li>
+<li><a href="/#about">About</a></li>
+<li><a href="/#events">Events</a></li>
+<li><a href="/#schedule">Schedule</a></li>
+<li><a href="allspeakers">Speakers</a></li>
+<li><a href="gallery">Gallery</a></li>
+<li><a href="allsponsors">Sponsors</a></li>
+<li><a href="/#contact">Contact</a></li>
+<li><a href="/#locate">Venue</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main" class="main-page">
+<section id="err_pg">
+<div class="row">
+<div class="col-sm-12">
+<div id="clouds">
+<div class="cloud x1"></div>
+<div class="cloud x1_5"></div>
+<div class="cloud x2"></div>
+<div class="cloud x3"></div>
+<div class="cloud x4"></div>
+<div class="cloud x5"></div>
+</div>
+<div class='c'>
+<br><br>
+<div class='_404'><p>404</p></div>
+<hr>
+<div class='_1'><p>OOPS!</p></div>
+<br>
+<div class='_2'><p>The requested page was not found</p></div>
+<br>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<script src="assets/melange2020/lib/jquery/jquery.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/jquery/jquery-migrate.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/bootstrap/js/bootstrap.bundle.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/easing/easing.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/superfish/hoverIntent.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/superfish/superfish.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/wow/wow.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/venobox/venobox.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/lib/owlcarousel/owl.carousel.min.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+
+<script src="assets/melange2020/contactform/contactform.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+
+<script src="assets/melange2020/js/main.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="assets/melange2020/js/app.js" type="82f899111032eefdeb7b8fc1-text/javascript"></script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="82f899111032eefdeb7b8fc1-|49" defer=""></script></body>
+</html>
